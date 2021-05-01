@@ -5,6 +5,7 @@
 @media (min-width: 425px) {
   /* .. */
 }
+
 /* Tablet =< */
 @media (min-width: 768px) {
   /* .. */
@@ -19,10 +20,12 @@
 @media (min-width: 1440px) {
   /* .. */
 }
+
 /* 2.5k =< */
 @media (min-width: 2560px) {
   /* .. */
 }
+
 /* 4k =< */
 @media (min-width: 3840px) {
   /* .. */
