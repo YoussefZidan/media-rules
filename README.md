@@ -10,6 +10,7 @@ Here are the [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.
 @media (min-width: 425px) {
   /* .. */
 }
+
 /* Tablet =< */
 @media (min-width: 768px) {
   /* .. */
@@ -24,10 +25,12 @@ Here are the [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.
 @media (min-width: 1440px) {
   /* .. */
 }
+
 /* 2.5k =< */
 @media (min-width: 2560px) {
   /* .. */
 }
+
 /* 4k =< */
 @media (min-width: 3840px) {
 /* .. */
