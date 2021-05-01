@@ -6,7 +6,7 @@ Here are the [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.
 /* Mobile */
 /* .. */
 
-/* Small Table =< */
+/* Small Tablet =< */
 @media (min-width: 425px) {
   /* .. */
 }
