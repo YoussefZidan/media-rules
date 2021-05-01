@@ -20,7 +20,7 @@ Here are the [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.
   /* .. */
 }
 
-/* Large Laptop =< */
+/* Laptop =< */
 @media (min-width: 1440px) {
   /* .. */
 }
