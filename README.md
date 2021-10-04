@@ -1,6 +1,13 @@
-Here are the [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) that I personally use to fit all possible devices and screen sizes.
+In this article I will share with you my experience with responsive design using css [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp).
+
+Before you start adding responsiveness into your app, You have to ask your self:
+Am I going to design the app in **Mobile First**  or **Desktop First**?
+
+Here are the @media rules that I personally use to fit all possible devices and screen sizes.
 
 > Sizes from Chrome device toolbar.
+
+## Desktop First
 
 ``` css
 /* ================ Desktop First ================ */
@@ -43,6 +50,12 @@ Here are the [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.
     background: yellow;
   }
 }
+```
+With Desktop First we use `max-width` and the sizes order from bigger (at the top) and smaller (at the bottom).
+
+## Mobile First
+
+```css
 
 /* ================ Mobile First ================ */
 
@@ -85,6 +98,5 @@ Here are the [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.
     background: red;
   }
 }
-
-
 ```
+With Mobile First we use `min-width` and the sizes order from smaller (at the top) and bigger (at the bottom).
