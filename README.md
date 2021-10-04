@@ -13,6 +13,9 @@ Here are the @media rules that I personally use to fit all possible devices and 
 /* ================ Desktop First ================ */
 
 /* Any other bigger devices */
+body {
+  background: brown;
+}
 
 /* Ultra HD */
 @media (max-width: 3840px) {
@@ -60,6 +63,9 @@ With Desktop First we use `max-width` and the sizes order from bigger (at the to
 /* ================ Mobile First ================ */
 
 /* Any other smaller devices */
+body {
+  background: brown;
+}
 
 /* Mobile */
 @media (min-width: 425px) {
