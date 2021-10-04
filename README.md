@@ -3,37 +3,88 @@ Here are the [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.
 > Sizes from Chrome device toolbar.
 
 ``` css
+/* ================ Desktop First ================ */
+
+/* Any other bigger devices */
+
+/* Ultra HD */
+@media (max-width: 3840px) {
+  body {
+    background: red;
+  }
+}
+/* Full HD */
+@media (max-width: 2560px) {
+  body {
+    background: blue;
+  }
+}
+/* Labtop L*/
+@media (max-width: 1440px) {
+  body {
+    background: green;
+  }
+}
+/* Labtop */
+@media (max-width: 1024px) {
+  body {
+    background: cyan;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  body {
+    background: purple;
+  }
+}
 /* Mobile */
-/* .. */
+@media (max-width: 425px) {
+  body {
+    background: yellow;
+  }
+}
 
-/* Small Tablet =< */
+/* ================ Mobile First ================ */
+
+/* Any other smaller devices */
+
+/* Mobile */
 @media (min-width: 425px) {
-  /* .. */
+  body {
+    background: yellow;
+  }
 }
-
-/* Tablet =< */
+/* Tablet */
 @media (min-width: 768px) {
-  /* .. */
+  body {
+    background: purple;
+  }
 }
-
-/* Small Laptop =< */
+/* Labtop */
 @media (min-width: 1024px) {
-  /* .. */
+  body {
+    background: cyan;
+  }
 }
-
-/* Laptop =< */
+/* Labtop L*/
 @media (min-width: 1440px) {
-  /* .. */
+  body {
+    background: green;
+  }
 }
-
-/* 2.5k =< */
+/* Full HD */
 @media (min-width: 2560px) {
-  /* .. */
+  body {
+    background: blue;
+  }
 }
 
-/* 4k =< */
+/* Ultra HD */
 @media (min-width: 3840px) {
-/* .. */
+  body {
+    background: red;
+  }
 }
+
 
 ```
