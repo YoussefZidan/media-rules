@@ -1,13 +1,16 @@
-In this article I will share with you my experience with responsive design using css [@media Rules](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp).
+In this shot, I will share my experience with responsive design using css @media Rules.
 
-Before you start adding responsiveness into your app, You have to ask your self:
-Am I going to design the app in **Mobile First**  or **Desktop First**?
+Before you start adding responsiveness into your app, you have to ask yourself
+"am I going to design the app in **Mobile-First Approach**  or **Desktop-First Approach**?"
 
-Here are the @media rules that I personally use to fit all possible devices and screen sizes.
+> Mobile-First Approach is designing or developing an app for **Mobile** before designing for desktop web or any other device.
 
-> Sizes from Chrome device toolbar.
+> Desktop-First Approach is designing or developing an app for **Dekstop** before designing for Mobiles or any other device.
 
-## Desktop First
+Here are the **@media rules** that I personally use to fit all possible devices and screen sizes.
+> Sizes from [Chrome device toolbar](https://developer.chrome.com/docs/devtools/device-mode/). 
+
+## Desktop-first
 
 ``` css
 /* ================ Desktop First ================ */
@@ -16,7 +19,6 @@ Here are the @media rules that I personally use to fit all possible devices and 
 body {
   background: brown;
 }
-
 /* Ultra HD */
 @media (max-width: 3840px) {
   body {
@@ -54,19 +56,17 @@ body {
   }
 }
 ```
-With Desktop First we use `max-width` and the sizes order from bigger (at the top) and smaller (at the bottom).
+With Desktop-first we use `max-width` and the order of the sizes from **larger** (at the top) to **smaller** (at the bottom).
 
-## Mobile First
+## Mobile-first
 
 ```css
-
 /* ================ Mobile First ================ */
 
 /* Any other smaller devices */
 body {
   background: brown;
 }
-
 /* Mobile */
 @media (min-width: 425px) {
   body {
@@ -105,4 +105,4 @@ body {
   }
 }
 ```
-With Mobile First we use `min-width` and the sizes order from smaller (at the top) and bigger (at the bottom).
+With mobile-first, we use `min-width`, and the order of the sizes from **smaller** (at the top) to **larger** (at the bottom).
